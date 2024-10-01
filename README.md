@@ -1,5 +1,4 @@
 # CODSOFT
-Intersnship 
 Above displayed are the tasks I chose for the internship 
 Simple programs of :
        1. Comtact book
