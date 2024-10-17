@@ -14,7 +14,7 @@ while True:
     if choice == '1':
         name = input('Enter name: ')
         if name in contacts:
-            print(f'Contact name {name} already exists!')
+            print(f'Contact name {name} already exists')
         else:
             storename = input('Enter store name: ')
             phonenumber = input('Enter the contact number: ')
@@ -26,7 +26,7 @@ while True:
                 'Email-Id': email,
                 'Address': address
             }
-            print(f'Contact name {name} has been created successfully!')
+            print(f'Contact name {name} has been created')
 
     elif choice == '2':
         if contacts:
@@ -34,7 +34,7 @@ while True:
             for name, details in contacts.items():
                 print(f"Name: {name}, Store: {details['StoreName']}, Phone: {details['PhoneNumber']}, Email: {details['Email-Id']}, Address: {details['Address']}")
         else:
-            print('No contacts found.')
+            print('No contacts found')
 
     elif choice == '3':
         name = input('Enter name to search: ')
@@ -42,7 +42,7 @@ while True:
             details = contacts[name]
             print(f"Name: {name}, Store: {details['StoreName']}, Phone: {details['PhoneNumber']}, Email: {details['Email-Id']}, Address: {details['Address']}")
         else:
-            print('Contact not found!')
+            print('Contact not found')
 
     elif choice == '4':
         name = input('Enter name to be updated: ')
@@ -57,7 +57,7 @@ while True:
                 'Email-Id': email,
                 'Address': address
             }
-            print(f'Contact name {name} has been updated successfully!')
+            print(f'Contact name {name} has been updated')
         else:
             print('Contact not found!')
 
@@ -65,12 +65,12 @@ while True:
         name = input('Enter contact to be deleted: ')
         if name in contacts:
             del contacts[name]
-            print(f'Contact name {name} has been deleted successfully!')
+            print(f'Contact name {name} has been deleted')
         else:
-            print('Contact not found!')
+            print('Contact not found')
 
     elif choice == '6':
-        print('Thank you for using the contact book!')
+        print('Thank you')
         break
 
     else:
