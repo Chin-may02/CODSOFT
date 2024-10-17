@@ -17,7 +17,7 @@ def simple_calculator():
         else:
             return "Division by zero is not allowed"
     else:
-        return "Invalid operation!"
+        return "Invalid operation"
 
     return f"The result of {num1} {operation} {num2} is: {result}"
 
