@@ -34,12 +34,12 @@ def play_best_of(n):
 
 if __name__ == '__main__':
     while True:
-        rounds = int(input("Enter number of rounds : "))
+        rounds = int(input("Enter number of rounds: "))
         if rounds % 2 == 1:
             play_best_of(rounds)
         else:
-            print("Please enter an odd number.")
+            print("Please enter an odd number")
 
         if input("Play again? (y/n): ").lower() != 'y':
-            print("Thanks for playing! Goodbye!")
+            print("Thanks for playing! Goodbye")
             break
