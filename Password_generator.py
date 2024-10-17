@@ -16,7 +16,7 @@ def main():
             else:
                 break
         except ValueError:
-            print("Invalid number. Try again")
+            print("Invalid number try again")
 
     password = generate_password(length)
     print(f"Your generated password is: {password}")
