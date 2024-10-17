@@ -4,7 +4,7 @@ def add_task():
     title = input("Enter task title: ")
     content = input("Enter task content: ")
     tasks[title] = content
-    print("Task added successfully!")
+    print("Task added ")
 
 def view_tasks():
     if tasks:
@@ -21,7 +21,7 @@ def update_task():
     if title in tasks:
         new = input("Have you completed the task : ")
         tasks[title] = new
-        print(f"Task '{title}' updated successfully!")
+        print(f"Task '{title}' updated")
     else:
         print(f"Task '{title}' not found.")
 
@@ -42,10 +42,10 @@ def main_menu():
         elif choice == '3':
             update_task()
         elif choice == '4':
-            print("Thank you for using the TASKER. Goodbye!")
+            print("Thank you")
             break
         else:
-            print("Invalid choice. Please enter a number from 1 to 4.")
+            print("Invalid choice. Please choose a number from 1 to 4.")
 
 if __name__ == "__main__":
     main_menu()
