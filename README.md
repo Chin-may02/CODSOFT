@@ -1,4 +1,4 @@
-# *CODSOFT*
+# **CODSOFT**
 
 Above displayed are the tasks I chose for the internship, 
 simple programs of :
